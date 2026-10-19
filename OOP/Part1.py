@@ -48,7 +48,6 @@ class Employee:
 
     def pay_raise(self, percentage):
         self.pay = int(self.pay * (1 + percentage / 100))
-        return self
 
     
 
