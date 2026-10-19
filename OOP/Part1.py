@@ -77,3 +77,4 @@ print(emp1.get_full_name())
 print(emp1.pay)
 print(emp1.pay_raise(10).pay)  # we can also chain the methods. It will return the instance itself after applying the pay raise. So we can call the pay attribute of the instance after applying the pay raise.
 
+print(Employee.get_full_name(emp1))  # we can also call the method using the class name and passing the instance as an argument. It will return the same result as calling the method using the instance.   
