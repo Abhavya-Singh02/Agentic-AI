@@ -143,5 +143,4 @@ print(emp2.raise_percentage)  # accessing the class variable using the object of
 
 emp1.raise_percentage = 1.08
 print(emp1.raise_percentage)  # accessing the instance variable using the object of the class
-print(Employee.count)  # accessing the class variable using the class name
 
